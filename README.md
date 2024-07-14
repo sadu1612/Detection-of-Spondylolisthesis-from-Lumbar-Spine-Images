@@ -11,3 +11,5 @@ Out of all these models, I have achived a maximum precision value of 94.01% and 
 For Keypoints extraction, I have used YOLOv7 pose model which takes input as text file. Achieved a keypoint loss of 0.0213 and keypoint visibility loss of 0.00042.
 
 For Spondylolisthesis prediction, the initial dataset is made into patches using ground truth annotations. Later, using Spondylolisthesis annotations, predictions were made, achieved a maximum accuracy of 97.90% for SVM model.
+
+For the integrated model, keypoints were first extracted using a keypoints detection model. These keypoints were then used to create patches, which were subsequently input into the spondylolisthesis prediction model.
