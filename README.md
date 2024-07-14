@@ -1,4 +1,8 @@
 # Detection-of-Spondylolisthesis-from-Lumbar-Spine-Images
+Dataset used in this project is BUU-LSPINE dataset. - https://services.informatics.buu.ac.th/spine/
+
+The Burapha Spine Dataset version 0.1 are labeled LSPINE X-ray image dataset. The dataset consists of 400 pairs of images with various resolutions sizes. 1 pair of images include AP view (Anterior view) and LA view (Lateral view). Each image was labeled each of the edge of the lumbar spines and diagnosis with 4 spine disorders which include Anterolisthesis, Retrolisthesis Left Laterolisthesis, and Right Laterolisthesis. The diagnosis was done by the physicians. All the LA view images in this dataset are left lateral view (patient look to the left side of the image) and all of the right lateral view images (patient look to the right side of the image) are flipped to left lateral view.
+
 
 Initially, Lumbar Spine was detected using models YOLOv5, MobileNetV1, ResNet50V1 and EfficientDetD1.
 YOLOV5 takes input in text format while remaining models take input in the form of xml files.
